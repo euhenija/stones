@@ -1,20 +1,15 @@
 package stones.stone;
 
 import stones.enums.StoneColor;
+
 import java.util.Objects;
 
 public abstract class Stone {
 
-
-    StoneColor stoneColor;
-    double stoneWeight;
-    double stonePrice;
-    int stoneClarity;
-
-    public Stone() {
-        super();
-    }
-
+    private StoneColor stoneColor;
+    private double stoneWeight;
+    private double stonePrice;
+    private int stoneClarity;
 
     public Stone(StoneColor stoneColor, double stoneWeight, double stonePrice, int stoneClarity) {
         this.stoneColor = stoneColor;

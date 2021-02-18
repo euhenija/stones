@@ -6,7 +6,7 @@ import stones.enums.StoneColor;
 import java.util.Objects;
 
 public class SemiPreciousStone extends Stone {
-    SemipreciousStonesName semipreciousStoneName;
+    private SemipreciousStonesName semipreciousStoneName;
 
     public SemiPreciousStone(SemipreciousStonesName semipreciousStoneName, StoneColor stoneColor, double stoneWeight, double stonePrice, int stoneClarity) {
         super(stoneColor, stoneWeight, stonePrice, stoneClarity);
